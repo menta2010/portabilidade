@@ -230,10 +230,14 @@ input{
     body{
         font-family: 'Spectral', sans-serif;
         background-image: url("../imagens/gif.gif");
+        background-attachment: fixed;
+        background-size: auto;
+        background-position-x: left;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        
              
     }
     .topo a{
@@ -260,7 +264,6 @@ input{
     
         color:#C28BCB;
     
-      
     }
     .topo li{
         list-style: none;
@@ -268,25 +271,28 @@ input{
     }
     .topo{
         display: flex;
-        flex-wrap: wrap;
         background-color: #BD99EA;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+       
     }
     .header-container{
         height: 100%;
         width: 100%;
         display:flex;
-        box-sizing: border-box;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 6rem;
+        
     }
     
     #img-container{
-        height: 9rem;
+        height: 12rem;
+
+       justify-content: center;
+       align-items: center;
         display: flex;  
     }
     
@@ -310,11 +316,12 @@ input{
         border: 1px solid white;
         color: white;
         min-width: 0.8rem;
-        padding: 1rem 4rem;
+        padding: 1rem 2rem;
+        margin-top: 0.5rem;
         align-items: center;
         justify-content: center;
         transition: 2s ease-in-out;
-        margin-left: 0.5rem;
+        
         background-color: #c19aea;
     }
     
@@ -323,7 +330,7 @@ input{
     }
     
     h1{
-        font-size: 1rem;
+        font-size: 1.1rem;
        
         text-transform:uppercase;
         color:white;
@@ -449,6 +456,7 @@ input{
         justify-content: center;
         margin-left: 2rem;
         display: flex;
+        flex-direction: column;
         gap: 2rem;
     }
     .nome{
