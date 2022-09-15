@@ -1,0 +1,457 @@
+@media screen and (min-width:400px){
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+body{
+    font-family: 'Spectral', sans-serif;
+    background-image: url("../imagens/gif.gif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+.topo a{
+    text-decoration: none;
+    color:white;
+    margin-right: 1rem;
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    font-size: 1.2rem;           
+  
+}
+
+.topo a:hover{
+
+    color:#C28BCB;
+
+  
+}
+.topo li{
+    list-style: none;
+    display: inline-block;
+}
+.topo{
+    display: inline-flex;
+    flex-wrap: wrap;
+    background-color: #BD99EA;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+
+}
+.header-container{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    box-sizing: border-box;
+    align-items: flex-start;
+    position: relative; 
+
+}
+
+#img-container{
+    height: 35rem;
+    margin-left: 5rem;
+}
+
+.redes-socias{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.wrapper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.redes-socias a{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-decoration: none;
+    text-align: none;
+    border: 1px solid white;
+    color: white;
+    min-width: 4rem;
+    padding: 1rem 4rem;
+    align-items: center;
+    justify-content: center;
+    transition: 2s ease-in-out;
+    margin-left: 0.5rem;
+    background-color: #c19aea;
+}
+
+.redes-socias a:hover{
+    background-color:#A26493;
+}
+
+h1{
+    font-size: 3rem;
+   
+    text-transform:uppercase;
+    color:white;
+
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.geral{
+flex-direction: column;
+margin-top: 6rem;
+}
+.nome-contato{
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 6.7rem;
+margin-left: 2rem;
+}
+
+.caixinha-geral{
+    display: flex;
+    flex-direction: column;
+   width: 358px;
+   flex-wrap: wrap;
+   gap: 3px;
+   
+}
+input:hover{
+    border-color: #af8177;
+}
+input{
+    text-align: center;
+}
+
+.caixinha1 input{
+    height: 2.2rem;
+    
+}
+.caixinha2 input{
+    width: 100%;
+    height: 2rem;
+}
+.caixinha2{
+    display: flex;
+    
+}
+.caixinha3{
+    display: flex;
+   
+}
+.caixinha3 input{
+    width: 100%;
+    height: 9rem;
+}
+.enviar{
+    display:flex;
+}
+.enviar button{
+    width: 100%;
+    height: 2rem;
+    color: white;
+    background-color: #A26493;
+    border-style: none;
+    box-shadow: 0.5px 0.5px 0.5px 0.2px rgb(51, 50, 50);
+}
+
+.escrita{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 400px;
+    color: white;
+    margin-left: 15rem;
+    margin-top: 4rem;
+}
+
+.escrita p{
+    color: white;
+}
+
+.container{
+    display: flex;
+    direction: row;
+    align-items: center;
+    
+}
+.geral-sobre{
+    display: flex;
+    justify-content: center;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    flex-wrap:nowrap;
+    color:white;
+    text-align: center;
+
+}
+.imagem-estilo{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+}
+.port{
+    display:flex;
+    justify-content: center;
+}
+.portifolio{
+    justify-content: center;
+    margin-left: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+}
+
+@media screen and (max-width:399px){
+ 
+    body{
+        font-family: 'Spectral', sans-serif;
+        background-image: url("../imagens/gif.gif");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+             
+    }
+    .topo a{
+        text-decoration: none;
+        color:white;
+        margin-right: 1rem;
+        text-shadow: 0 1px 0 #ccc, 
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);
+        font-size: 0.8rem;           
+      
+    }
+    
+    .topo a:hover{
+    
+        color:#C28BCB;
+    
+      
+    }
+    .topo li{
+        list-style: none;
+        display: inline-block;
+    }
+    .topo{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #BD99EA;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .header-container{
+        height: 100%;
+        width: 100%;
+        display:flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #img-container{
+        height: 9rem;
+        display: flex;  
+    }
+    
+    .redes-socias{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .redes-socias a{
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        text-decoration: none;
+        text-align: none;
+        border: 1px solid white;
+        color: white;
+        min-width: 0.8rem;
+        padding: 1rem 4rem;
+        align-items: center;
+        justify-content: center;
+        transition: 2s ease-in-out;
+        margin-left: 0.5rem;
+        background-color: #c19aea;
+    }
+    
+    .redes-socias a:hover{
+        background-color:#A26493;
+    }
+    
+    h1{
+        font-size: 1rem;
+       
+        text-transform:uppercase;
+        color:white;
+    
+        text-shadow: 0 1px 0 #ccc, 
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);
+    }
+    
+    .geral{
+    flex-direction: column;
+
+    }
+    .nome-contato{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.7rem;
+    margin-left: 2rem;
+    }
+    
+    .caixinha-geral{
+        display: flex;
+        flex-direction: column;
+       width: 358px;
+       flex-wrap: wrap;
+       gap: 3px;
+       
+    }
+    input:hover{
+        border-color: #af8177;
+    }
+    input{
+        text-align: center;
+    }
+    
+    .caixinha1 input{
+        height: 2.2rem;
+        
+    }
+    .caixinha2 input{
+        width: 100%;
+        height: 2rem;
+    }
+    .caixinha2{
+        display: flex;
+        
+    }
+    .caixinha3{
+        display: flex;
+       
+    }
+    .caixinha3 input{
+        width: 100%;
+        height: 9rem;
+    }
+    .enviar{
+        display:flex;
+    }
+    .enviar button{
+        width: 100%;
+        height: 2rem;
+        color: white;
+        background-color: #A26493;
+        border-style: none;
+        box-shadow: 0.5px 0.5px 0.5px 0.2px rgb(51, 50, 50);
+    }
+    
+    .escrita{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 400px;
+        color: white;
+        margin-left: 15rem;
+        margin-top: 4rem;
+    }
+    
+    .escrita p{
+        color: white;
+    }
+    
+    .container{
+        display: flex;
+        direction: row;
+        align-items: center;
+        
+    }
+    .geral-sobre{
+        display: flex;
+        justify-content: center;
+    }
+    .text-container{
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+        flex-wrap:nowrap;
+        color:white;
+        text-align: center;
+    
+    }
+    .imagem-estilo{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        
+    }
+    .port{
+        display:flex;
+        justify-content: center;
+    }
+    .portifolio{
+        justify-content: center;
+        margin-left: 2rem;
+        display: flex;
+        gap: 2rem;
+    }
+    .nome{
+        text-align: center;
+    }
+    }
